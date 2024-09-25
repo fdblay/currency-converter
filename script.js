@@ -37,7 +37,8 @@ window.addEventListener("load", ()=> {
 });
 
 getButton.addEventListener("click", e =>{
-    e.preventDefault(); //preventing form from submitting getExchangeRate();
+    e.preventDefault(); //preventing form from submitting
+    getExchangeRate();
 });
 
 const exchangeIcon = document.querySelector("form .icon");

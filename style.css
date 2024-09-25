@@ -37,13 +37,23 @@ form button {
   width: 50%;
   outline: none;
   border: 1px solid #888;
-  border-radius: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  background: #00b4db;
+  transition: all 0.5s;
+
+}
+form button:hover{
+  background: #049bce;
 
 }
 
 form input {
   outline: none;
   border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 form .drop-list {
@@ -54,7 +64,16 @@ form .drop-list {
 
 }
 
-.result {
+.exchange-rate {
+  margin-top: 1rem;
+  border: 1px solid #888;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+}
+/* .result {
   color: black;
   font-size: 12px;
 }
@@ -62,7 +81,7 @@ form .drop-list {
 .error {
   color: red;
   font-size: 14;
-}
+} */
 
 
 .select-box img {
