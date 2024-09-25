@@ -1,92 +1,107 @@
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-items  {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 40px;
+.nav-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 40px;
 }
 
 .nav-items a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 form {
-    background-color: wheat;
-    padding: 10px;
-    border-radius: 10px;
+  background-color: wheat;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
 .hero form {
-    width: 28%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-form span{
-    text-align: center;
+form button {
+  margin: auto;
+  margin-top: 1rem;
+  padding: 5px;
+  width: 50%;
+  outline: none;
+  border: 1px solid #888;
+  border-radius: 10px;
+
 }
+
 form input {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
-form .drop-list{
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-between;
-  }
+
+form .drop-list {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+
+}
 
 .result {
-    color: black;
-    font-size: 12px;
+  color: black;
+  font-size: 12px;
 }
 
 .error {
-    color: red;
-    font-size: 14;
+  color: red;
+  font-size: 14;
 }
 
 
-.select-box img{
-    max-width: 21px;
-  }
-  .select-box select{
-    width: auto;
-    font-size: 20px;
-    background: none;
-    margin: 0 -5px 0 5px;
-  }
-  .select-box select::-webkit-scrollbar{
-    width: 8px;
-  }
-  .select-box select::-webkit-scrollbar-track{
-    background: #fff;
-  }
-  .select-box select::-webkit-scrollbar-thumb{
-    background: #888;
-    border-radius: 8px;
-    border-right: 2px solid #ffffff;
-  }
-  .drop-list .icon{
-    cursor: pointer;
-    margin-top: 30px;
-    font-size: 22px;
-  }
+.select-box img {
+  max-width: 21px;
+}
 
-  .drop-list .select-box{
-    display: flex;
-    width: 175px;
-    height: 45px;
-    align-items: center;
-    border-radius: 5px;
-    justify-content: center;
-    border: 1px solid #999;
-  }
+.select-box select {
+  width: auto;
+  font-size: 20px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.drop-list .icon {
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.drop-list .select-box {
+  display: flex;
+  width: 175px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
