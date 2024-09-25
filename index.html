@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <script src="/currency.js" defer></script>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <h1 class="logo">
+                FAM~Currency-Converter
+            </h1>
+            <div class="nav-items">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </nav>
+        <section class="hero">
+            <form action="#">
+
+
+
+                <label for="">Enter Amount:</label>
+                <input type="number"><br>
+
+                <div class="drop-list">
+                    <div class="from">
+                        <label for="">From</label>
+                        <div class="select-box">
+                            <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                            <select class="select-opt" name="from-currency" id="from-currency">
+                                <!-- Options tag are inserted from JavaScript -->
+                            </select><br>
+                        </div>
+                    </div>
+
+                    <!-- <span>To</span><br> -->
+                    <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+
+                    <div class="to">
+                        <label for="">To</label>
+                        <div class="select-box">
+                            <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                            <select class="select-opt" name="to-currency" id="to-currency">
+                                <!-- Options tag are inserted from JavaScript -->
+                            </select><br>
+                        </div>
+                    </div>
+                </div>
+                <button class="convert">Convert</button>
+                <div class="exchange-rate">Getting exchange rate...</div>
+            </form><br>
+            <!-- <p class="result"></p>
+            <p class="error"></p> -->
+        </section>
+    </header>
+</body>
+
+</html>
