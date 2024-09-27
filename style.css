@@ -1,6 +1,15 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  background-image: url('./images/money.jpg');
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .nav-bar {
   visibility: hidden;
   display: flex;
@@ -19,6 +28,7 @@
 .nav-items a {
   text-decoration: none;
 }
+
 .hero {
   box-sizing: border-box;
   width: 50%;
@@ -41,6 +51,17 @@ form {
   margin: auto;
 }
 
+.head {
+  text-align: center;
+  font-size: 48px;
+  color: whitesmoke;
+  background-color: rgba(218, 165, 32, 0.527);
+  border: 1px dashed wheat;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+
 form button {
   margin: auto;
   margin-top: 1rem;
@@ -55,7 +76,8 @@ form button {
   transition: all 0.5s;
 
 }
-form button:hover{
+
+form button:hover {
   background: #049bce;
 
 }
@@ -87,6 +109,7 @@ form .drop-list {
   height: 10vh;
   margin: auto;
 }
+
 /* .result {
   color: black;
   font-size: 12px;
@@ -139,27 +162,29 @@ form .drop-list {
   border: 1px solid #999;
 }
 
-@media only screen and (max-width: 700px){
-  
-  .hero{
+@media only screen and (max-width: 700px) {
+
+  .hero {
     box-sizing: border-box;
     width: 90%;
     margin: auto;
   }
-  form 
-  .drop-list .select-box{
+
+  form .drop-list .select-box {
     padding: 15px;
     width: 100%;
     height: 45px;
 
   }
+
   .drop-list {
     display: flex;
     flex-direction: column;
   }
+
   .select-box .select-opt {
     width: 80%;
     font-size: 15px;
   }
 
-  }
+}
