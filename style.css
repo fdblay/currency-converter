@@ -173,8 +173,11 @@ form .drop-list {
   form .drop-list .select-box {
     padding: 15px;
     width: 100%;
-    height: 45px;
+    /* height: 10px; */
 
+  }
+  form {
+    height: 80vh;
   }
 
   .drop-list {
@@ -185,6 +188,10 @@ form .drop-list {
   .select-box .select-opt {
     width: 80%;
     font-size: 15px;
+  }
+
+  .head {
+    font-size: 20px;
   }
 
 }
