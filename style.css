@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url('/images/money.jpg');
+  background-image: url('./images/money.jpg');
   /* position: absolute; */
   background-repeat: no-repeat;
   background-size: cover;
